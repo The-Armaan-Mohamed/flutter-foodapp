@@ -37,7 +37,7 @@ class MyReceipt extends StatelessWidget {
             const SizedBox(
               height: 25,
             ),
-            const Text("Estimated delivery [insert time] PM"),
+            const Text("Your food will be delivered soon"),
           ],
         ),
       ),
