@@ -13,11 +13,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A juicy beef patty with metled chedar, lettace and a hint of onion and pickle.",
         imagePath: "lib/images/burgers/cheese_burger.jpg",
-        price: 0.99,
+        price: 50.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Macon", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.burgers),
     Food(
@@ -25,11 +25,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A juicy beef patty with metled chedar, lettace and a sunny-side egg.",
         imagePath: "lib/images/burgers/breakfast_burger.jpg",
-        price: 0.99,
+        price: 60.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Macon", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.burgers),
     Food(
@@ -37,11 +37,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A juicy beef patty with metled chedar, lettace and a hint of onion and pickle in BBQ sauce.",
         imagePath: "lib/images/burgers/bbq_burger.jpg",
-        price: 0.99,
+        price: 65.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Macon", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.burgers),
     Food(
@@ -49,11 +49,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A small beef patty with metled chedar, lettace and pickle.",
         imagePath: "lib/images/burgers/mini_burger.jpg",
-        price: 0.99,
+        price: 35.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Macon", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.burgers),
     Food(
@@ -61,11 +61,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A pulled lamb patty with metled chedar, lettace and a hint of onion and pickle.",
         imagePath: "lib/images/burgers/shredded_burger.jpg",
-        price: 0.99,
+        price: 85.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Macon", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.burgers),
 
@@ -75,11 +75,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "Crispy lettuce, feta cheese, cherry tomatoes and cucumber.",
         imagePath: "lib/images/salads/classic_salad.jpg",
-        price: 0.99,
+        price: 50.00,
         availableAddons: [
-          Addon(name: "Extra olives", price: 0.99),
-          Addon(name: "Pineapple", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra olives", price: 12.00),
+          Addon(name: "Pineapple", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.salads),
     Food(
@@ -87,11 +87,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "Crispy lettuce, strawberries, cherry tomatoes and cucumber.",
         imagePath: "lib/images/salads/fruit_salad.jpg",
-        price: 0.99,
+        price: 60.00,
         availableAddons: [
-          Addon(name: "Extra apples", price: 0.99),
-          Addon(name: "Pineapple", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra strawberries", price: 12.00),
+          Addon(name: "Dragon fruit", price: 25.00),
+          Addon(name: "Pineapple", price: 15.00),
         ],
         category: FoodCategory.salads),
     Food(
@@ -99,11 +99,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "Avocado, corn, cherry tomatoes and cucumber on a bed of tortias.",
         imagePath: "lib/images/salads/mexican_salad.jpg",
-        price: 0.99,
+        price: 70.00,
         availableAddons: [
-          Addon(name: "Extra olives", price: 0.99),
-          Addon(name: "Pineapple", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra tortias", price: 12.00),
+          Addon(name: "Beans", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.salads),
     Food(
@@ -111,11 +111,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "Crispy lettuce, feta cheese, cherry tomatoes and pasta in creamy sauce.",
         imagePath: "lib/images/salads/pasta_salad.jpg",
-        price: 0.99,
+        price: 45.00,
         availableAddons: [
-          Addon(name: "Extra olives", price: 0.99),
-          Addon(name: "Pineapple", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra feta cheese", price: 20.00),
+          Addon(name: "Pineapple", price: 15.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.salads),
     Food(
@@ -123,11 +123,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "Crispy lettuce, feta cheese, cherry tomatoes and king prawns.",
         imagePath: "lib/images/salads/prawn_salad.jpg",
-        price: 0.99,
+        price: 80.00,
         availableAddons: [
-          Addon(name: "Extra prawns", price: 3.99),
-          Addon(name: "Pineapple", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra prawns", price: 30.00),
+          Addon(name: "Cherry tomatoes", price: 8.00),
+          Addon(name: "Avocado", price: 10.00),
         ],
         category: FoodCategory.salads),
 
@@ -136,11 +136,11 @@ class Restaurant extends ChangeNotifier {
         name: "Fries",
         description: "Large crunchy and crispy potato wedges.",
         imagePath: "lib/images/sides/fries_side.jpg",
-        price: 0.99,
+        price: 30.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Onion rings", price: 1.99),
-          Addon(name: "Macon", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Onion rings", price: 15.00),
+          Addon(name: "Macon", price: 25.00),
         ],
         category: FoodCategory.sides),
     Food(
@@ -148,44 +148,45 @@ class Restaurant extends ChangeNotifier {
         description:
             "A juicy beef mince with metled chedar, lettace and a hint of onion and pickle on a bed of Nacho chips.",
         imagePath: "lib/images/sides/nachos.jpg",
-        price: 0.99,
+        price: 80.00,
         availableAddons: [
-          Addon(name: "Extra cheese", price: 0.99),
-          Addon(name: "Macon", price: 1.99),
-          Addon(name: "Avocado", price: 2.99),
+          Addon(name: "Extra cheese", price: 5.00),
+          Addon(name: "Avocado", price: 10.00),
+          Addon(name: "Macon", price: 25.00),
         ],
         category: FoodCategory.sides),
     Food(
         name: "Buffalo Wings",
         description: "Large juicy and crispy chicken wings.",
         imagePath: "lib/images/sides/wings.jpg",
-        price: 0.99,
+        price: 65.00,
         availableAddons: [
-          Addon(name: "Extra ranch", price: 0.99),
-          Addon(name: "Onion rings", price: 1.99),
-          Addon(name: "Macon", price: 2.99),
+          Addon(name: "Extra ranch", price: 5.00),
+          Addon(name: "Onion rings", price: 15.00),
+          Addon(name: "Macon", price: 25.00),
         ],
         category: FoodCategory.sides),
     Food(
-        name: "Buffalo Wings",
-        description: "Large juicy and crispy chicken wings.",
-        imagePath: "lib/images/sides/wings.jpg",
-        price: 0.99,
+        name: "Cauliflower Mash",
+        description: "Large hot and creamy mash.",
+        imagePath: "lib/images/sides/mash_side.webp",
+        price: 20.00,
         availableAddons: [
-          Addon(name: "Extra ranch", price: 0.99),
-          Addon(name: "Onion rings", price: 1.99),
-          Addon(name: "Macon", price: 2.99),
+          Addon(name: "Extra pepper", price: 2.00),
+          Addon(name: "Parmesan", price: 10.00),
+          Addon(name: "Gravy", price: 8.00),
         ],
         category: FoodCategory.sides),
     Food(
-        name: "Buffalo Wings",
-        description: "Large juicy and crispy chicken wings.",
-        imagePath: "lib/images/sides/wings.jpg",
-        price: 0.99,
+        name: "Jalapeno cornbread",
+        description:
+            "During the cooler weather, soups and stews reign supreme, and this cornbread side is just the thing for mopping up all those delicious sauces.",
+        imagePath: "lib/images/sides/cornbread_side.jpeg",
+        price: 35.99,
         availableAddons: [
-          Addon(name: "Extra ranch", price: 0.99),
-          Addon(name: "Onion rings", price: 1.99),
-          Addon(name: "Macon", price: 2.99),
+          Addon(name: "Extra jalapenos", price: 8.00),
+          Addon(name: "Mushroom sauce", price: 10.00),
+          Addon(name: "Garlic butter", price: 2.00),
         ],
         category: FoodCategory.sides),
 
@@ -194,11 +195,11 @@ class Restaurant extends ChangeNotifier {
         name: "Cheese Cake",
         description: "A cheese cake.",
         imagePath: "lib/images/desserts/cheese_cake.jpg",
-        price: 0.99,
+        price: 110.00,
         availableAddons: [
-          Addon(name: "Extra Ice-cream", price: 0.99),
-          Addon(name: "Cream", price: 1.99),
-          Addon(name: "Chocolates", price: 2.99),
+          Addon(name: "Extra Ice-cream", price: 10.00),
+          Addon(name: "Cream", price: 10.00),
+          Addon(name: "Chocolates", price: 15.00),
         ],
         category: FoodCategory.desserts),
     Food(
@@ -206,11 +207,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A hot chocolate cake with an overflowing dark chocolate filling.",
         imagePath: "lib/images/desserts/lava_cake.jpg",
-        price: 0.99,
+        price: 145.00,
         availableAddons: [
-          Addon(name: "Extra Ice-cream", price: 0.99),
-          Addon(name: "Cream", price: 1.99),
-          Addon(name: "Chocolates", price: 2.99),
+          Addon(name: "Extra Ice-cream", price: 10.00),
+          Addon(name: "Cream", price: 10.00),
+          Addon(name: "Chocolates", price: 15.00),
         ],
         category: FoodCategory.desserts),
     Food(
@@ -218,11 +219,11 @@ class Restaurant extends ChangeNotifier {
         description:
             "A chocolate cake, with a peanut butter layer and strawberry jam topping.",
         imagePath: "lib/images/desserts/ppj_cake.jpg",
-        price: 0.99,
+        price: 90.00,
         availableAddons: [
-          Addon(name: "Extra Ice-cream", price: 0.99),
-          Addon(name: "Cream", price: 1.99),
-          Addon(name: "Chocolates", price: 2.99),
+          Addon(name: "Extra Ice-cream", price: 10.00),
+          Addon(name: "Cream", price: 10.00),
+          Addon(name: "Chocolates", price: 15.00),
         ],
         category: FoodCategory.desserts),
     Food(
@@ -230,22 +231,22 @@ class Restaurant extends ChangeNotifier {
         description:
             "A fresh stack of pancakes topped with syrpe, berries and cream.",
         imagePath: "lib/images/desserts/pancakes.jpg",
-        price: 0.99,
+        price: 70.00,
         availableAddons: [
-          Addon(name: "Extra Ice-cream", price: 0.99),
-          Addon(name: "Cream", price: 1.99),
-          Addon(name: "Chocolates", price: 2.99),
+          Addon(name: "Extra Ice-cream", price: 10.00),
+          Addon(name: "Cream", price: 10.00),
+          Addon(name: "Chocolates", price: 15.00),
         ],
         category: FoodCategory.desserts),
     Food(
         name: "Brownies",
         description: "Soft, gooy and delicious chocolate brownies.",
         imagePath: "lib/images/desserts/brownies.jpg",
-        price: 0.99,
+        price: 60.00,
         availableAddons: [
-          Addon(name: "Extra Ice-cream", price: 0.99),
-          Addon(name: "Cream", price: 1.99),
-          Addon(name: "Chocolates", price: 2.99),
+          Addon(name: "Extra Ice-cream", price: 10.00),
+          Addon(name: "Cream", price: 10.00),
+          Addon(name: "Chocolates", price: 15.00),
         ],
         category: FoodCategory.desserts),
 
@@ -254,11 +255,11 @@ class Restaurant extends ChangeNotifier {
         name: "Ice Tea",
         description: "A refreshing, cold, peach tea drink.",
         imagePath: "lib/images/drinks/ice_tea.jpg",
-        price: 0.99,
+        price: 20.00,
         availableAddons: [
-          Addon(name: "Extra Lemon", price: 0.99),
-          Addon(name: "Mint", price: 1.99),
-          Addon(name: "Fruity ice", price: 2.99),
+          Addon(name: "Extra Lemon", price: 2.00),
+          Addon(name: "Mint", price: 5.00),
+          Addon(name: "Fruity ice", price: 8.00),
         ],
         category: FoodCategory.drinks),
     Food(
@@ -266,22 +267,22 @@ class Restaurant extends ChangeNotifier {
         description:
             "A refreshing, cold, chocolate milkshake with a side of cookies.",
         imagePath: "lib/images/drinks/chocolate_milkshake.jpg",
-        price: 0.99,
+        price: 60.00,
         availableAddons: [
-          Addon(name: "Extra cookies", price: 0.99),
-          Addon(name: "Whipped cream", price: 1.99),
-          Addon(name: "Melted marshmellows", price: 2.99),
+          Addon(name: "Extra cookies", price: 15.00),
+          Addon(name: "Whipped cream", price: 10.00),
+          Addon(name: "Melted marshmellows", price: 10.00),
         ],
         category: FoodCategory.drinks),
     Food(
         name: "Orange Juice",
         description: "A refreshing, cold, freshly squeazed orange juice.",
         imagePath: "lib/images/drinks/orange_juice.jpg",
-        price: 0.99,
+        price: 20.00,
         availableAddons: [
-          Addon(name: "Extra Lemon", price: 0.99),
-          Addon(name: "Mint", price: 1.99),
-          Addon(name: "Fruity ice", price: 2.99),
+          Addon(name: "Extra Lemon", price: 2.00),
+          Addon(name: "Mint", price: 5.00),
+          Addon(name: "Fruity ice", price: 8.00),
         ],
         category: FoodCategory.drinks),
     Food(
@@ -289,22 +290,22 @@ class Restaurant extends ChangeNotifier {
         description:
             "A great pick-me up to restore those energy levels, with fresh, hot coffee.",
         imagePath: "lib/images/drinks/coffee.jpg",
-        price: 0.99,
+        price: 35.00,
         availableAddons: [
-          Addon(name: "Extra cookies", price: 0.99),
-          Addon(name: "Whipped cream", price: 1.99),
-          Addon(name: "Rusks", price: 2.99),
+          Addon(name: "Extra cookies", price: 15.00),
+          Addon(name: "Whipped cream", price: 10.00),
+          Addon(name: "Rusks", price: 8.00),
         ],
         category: FoodCategory.drinks),
     Food(
         name: "Strawberry Smoothie",
         description: "A refreshing, cold, strawberry smoothie drink.",
         imagePath: "lib/images/drinks/strawberry_smoothie.jpg",
-        price: 0.99,
+        price: 50.00,
         availableAddons: [
-          Addon(name: "Extra Lemon", price: 0.99),
-          Addon(name: "Mint", price: 1.99),
-          Addon(name: "Fruity ice", price: 2.99),
+          Addon(name: "Extra Lemon", price: 2.00),
+          Addon(name: "Mint", price: 5.00),
+          Addon(name: "Fruity ice", price: 8.00),
         ],
         category: FoodCategory.drinks),
   ];
@@ -464,7 +465,7 @@ class Restaurant extends ChangeNotifier {
 
   // format double value into money
   String _formatPrice(double price) {
-    return "\$${price.toStringAsFixed(2)}";
+    return "\R${price.toStringAsFixed(2)}";
   }
 
   // format list of addons into a string summary
