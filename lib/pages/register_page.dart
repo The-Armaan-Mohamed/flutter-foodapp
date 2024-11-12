@@ -83,7 +83,7 @@ class _RegisterPageState extends State<RegisterPage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
+      backgroundColor: Theme.of(context).colorScheme.onSurface,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
